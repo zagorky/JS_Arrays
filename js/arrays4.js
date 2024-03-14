@@ -8,7 +8,7 @@ let arr =  new Array();
 for(let i = 0; i < n; i ++ ){
     arr[i] = Math.round(Math.random() * 100);
 }
-document.write( arr );
-document.write( ' => ' );
+console.log ( arr );
+console.log ( ' => ' );
 let checkFive = arr.filter(i => i%5 == 0);
-document.write( checkFive );
+console.log( checkFive );
