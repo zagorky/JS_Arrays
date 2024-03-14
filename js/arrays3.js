@@ -13,4 +13,6 @@ function checkEvenNum (elem, i, arr){
 }
 let evenNum = arr.every(checkEvenNum);
 document.write(arr);
+document.write( ' => ' );
+
 document.write(evenNum);
