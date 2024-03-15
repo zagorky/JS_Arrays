@@ -8,6 +8,5 @@ let num = prompt('Введите ЧИСЛО');
 if (Boolean(num)){
 let arrNum = num.split('');
 let res = arrNum.map(item => +item+1);
-if (isNaN(res)) alert('ОШИБКА')
-else document.write(res); }
-else alert('ОШИБКА');
+document.write(res);}
+else alert('ОШИБКА')
