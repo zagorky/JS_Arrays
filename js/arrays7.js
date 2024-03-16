@@ -6,9 +6,9 @@
 // случайными числами и содержать четное число 
 // элементов. (reduce 2 шт)
 
-let n = Math.round(Math.random()*5+1);
+
 let arr =  new Array();
-for(let i=0; i<n; i++){
+for(let i=0; i<4; i++){
     arr[i] = (Math.round(Math.random()*100)) ;
 }
 let arrEven = arr.reduce((sum, elem, i) => {
