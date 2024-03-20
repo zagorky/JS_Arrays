@@ -16,6 +16,7 @@ let filterValue = arrData.filter(function(el){
 return el.startsWith('https:')
 });
     
-console.log(data);
-console.log(arrData);
-console.log(filterValue);
+document.write(data);
+document.write(arrData);
+document.write('=>');
+document.write(filterValue);
