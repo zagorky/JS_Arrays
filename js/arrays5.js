@@ -9,6 +9,6 @@ for(let i=0; i<n; i++){
     arr[i] = ((Math.round(Math.random()*100) * 10) / 100);
 }
 let checkMiddle = ( arr.reduce((sum, i) => sum + i) / arr.length).toFixed(1) ;
-console.log(arr);
-console.log (' => ');
-console.log (checkMiddle);
+document.write(arr);
+document.write('=>');
+document.write(checkMiddle);
