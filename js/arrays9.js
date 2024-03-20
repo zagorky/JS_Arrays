@@ -18,6 +18,7 @@ function filterValue (query){
 
     });
 }
-console.log(data);
-console.log(arrData);
-console.log(filterValue("https"));
+document.write(data);
+document.write(arrData);
+document.write('=>');
+document.write(filterValue("https"));
