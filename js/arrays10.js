@@ -22,8 +22,9 @@ let data = [
     ];
 let keys = data.reduce((cont,obj) => [...cont, ...Object.keys(obj)], [])
 
-console.log(keys);
+document.write(keys);
 let values = data.reduce((cont, obj) => [...cont, ...Object.values(obj)], [] )
-console.log(values);
+document.write(values);
 let sum = keys.reduce((sum,i) => sum + +i, 0) + values.reduce((sum,i) => sum + +i, 0);
-console.log(sum);
+document.write('=>');
+document.write(sum);
