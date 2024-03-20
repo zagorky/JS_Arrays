@@ -10,4 +10,4 @@ for(let i=0; i<n; i++){
 document.write(arr);
 let sumSqrt = arr.filter(i => i % 2==0).reduce ( (sum,i) => sum + (i ** 0.5) , 0);
 document.write('=>');
-console.log(sumSqrt);
+document.write(sumSqrt);
